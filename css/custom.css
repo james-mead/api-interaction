@@ -1,0 +1,54 @@
+/** {
+  border: 1px solid black;
+}*/
+
+body {
+  /*background-color: #333;*/
+  font-family: 'Raleway', sans-serif;
+  /*background: gray;*/
+
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+.proverb-container {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 50px 0 black;
+  padding: 40px;
+  width: 450px;
+  height: auto;
+  background: white;
+  text-align: center;
+}
+
+.buttons {
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+}
+
+#newProverb {
+  padding: 0 10px 0 10px;
+
+}
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: black;
+  color: white;
+  text-align: center;
+}
